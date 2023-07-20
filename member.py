@@ -1,4 +1,4 @@
-ver = "0.3"
+ver = "0.5"
 
 class Member:
     def __init__(self, name, words=""):
@@ -16,24 +16,18 @@ mlist = []
 newmember = Member("江頭2:50", "エガちゃんです！")
 mlist.append(newmember)
 
-<<<<<<< HEAD
 ### 以下に自分を追加する ###
 newmember = Member("房州優樹", "よろしくです！")
 mlist.append(newmember)
-=======
 
-### 以下に自分を追加する ###
 newmember = Member("吉田 羅生", "よろしくです！")
+mlist.append(newmember)
 
-
-### 以下に自分を追加する ###
 newmember = Member("駒場義晃", "コマバです")
 mlist.append(newmember)
 
 newmember = Member("大河原翔太", "よろしくお願いいたします。")
 mlist.append(newmember)
-
->>>>>>> 901294554bfb4975aa723a8c5df746849f91fc29
 
 # メンバー表示
 print("各メンバーから一言")
