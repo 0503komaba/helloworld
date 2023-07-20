@@ -24,7 +24,6 @@ newmember = Member("吉田 羅生", "よろしくです！")
 mlist.append(newmember)
 
 newmember = Member("駒場義晃", "コマバです")
-mlist.append(newmember)
 
 newmember = Member("大河原翔太", "よろしくお願いいたします。")
 mlist.append(newmember)
